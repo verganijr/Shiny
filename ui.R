@@ -12,7 +12,7 @@ shinyUI(navbarPage("Select car",
         # Sidebar
         sidebarLayout(
             sidebarPanel(
-                helpText("Provide carachteristics of the car you want"),
+                helpText("Provide characteristics of the car you want"),
                 sliderInput('MilesPerGallon', 'Miles Per Gallon', min=5, max=35, value=c(5,35), step=0.1),
                 checkboxGroupInput('cyl', 'Number of cylinders:', c("Four"=4, "Six"=6, "Eight"=8), selected = c(4,6,8)),
                 sliderInput('disp', 'Displacement', min=70, max=480, value=c(70,480), step=10),

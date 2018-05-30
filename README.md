@@ -4,6 +4,6 @@ This repository has the ui.R and server.R files for the Developing Data Products
 
 The app developed for the first part of the assignment is avalilable at: https://verganijr.shinyapps.io/Project
 
-The presentation is available at: http://verganijr.github.io/data_products_slidify/index
+The presentation is available at: http://verganijr.github.io/Shiny
 
-Code Files are avalilable on the GitHub: https://github.com/verganijr/dataproducts
+Code Files are avalilable on the GitHub: https://github.com/verganijr/Shiny

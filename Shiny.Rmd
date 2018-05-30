@@ -1,0 +1,35 @@
+---
+title: "Shiny"
+author: "Antonio Cesar Vergani Jr"
+date: "Jan 2017"
+output:
+  ioslides_presentation: default
+  slidy_presentation: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## mtcars dataset
+
+The data was extracted from the 1974 Motor Trend US magazine, and comprises fuel consumption and 10 aspects of automobile design and performance for 32 automobiles (1973-74 models). This data is pre-loaded during the R installation.
+
+## Summary of mtcars dataset
+
+```{r mtcars, echo = TRUE}
+summary(mtcars)
+```
+
+## Shiny app select cars based on the filters:
+
+- Miles Per Gallon
+- Number of cylinders
+- Displacement
+- Horse Power
+- Transmission
+
+
+## Links and References
+
+To access the Shiny app: 
